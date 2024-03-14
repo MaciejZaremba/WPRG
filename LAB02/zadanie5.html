@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="utf-8">
+    <title>formularz3</title>
+</head>
+<body>
+    <div id="firstForm">
+        <label for="name">Imię:</label>
+        <input type="text" id="name"><br>
+        <label for="color">Ulubiony kolor:</label>
+        <input list="colours" id="color">
+        <datalist id="colours">
+            <option value="Czerwony"></option>
+            <option value="Niebieski"></option>
+            <option value="Zielony"></option>
+            <option value="Żółty"></option>
+            <option value="Różowy"></option>
+        </datalist>
+        <input type="submit" value="Zapisz">
+    </div>
+    <br><br>
+    <div id="secondForm">
+        <input type="checkbox" id="dumbRobots" value="AreYouARobot" hidden>
+        <label for="value">Wartość: </label>
+        <input type="range" min="0" max="24" step="1"><br>
+        <input type="submit" value="Wyślij"><br><br>
+        <label for="currentProgress">Aktualny postęp: </label>
+        <progress id="currentProgress" value="35" max="100">35</progress><br>
+        <label for="overallProgress">Całkowity postęp: </label>
+        <progress id="overallProgress" value="78" max="100">78</progress><br>
+        <input type="submit" value="Wyślij"><br><br>
+        <label for="fullName">Imię i nazwisko:</label>
+        <input type="text" id="fullName"><br><br>
+        <input type="submit" value="Wyślij"><br><br>
+    </div>
+</body>
+</html>

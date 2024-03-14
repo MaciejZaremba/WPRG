@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="utf-8">
+    <title>formularz</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <h2>* denotes mandatory</h2>
+    <form>
+        <label for="fname">Full name* :</label><br>
+        <input type="text" id="fname" placeholder="FirstName LastName"><br>
+        <label for="email">Email address* :</label><br>
+        <input type="email" id="email"><br>
+        <label for="tour">Select Tour Package* :</label><br>
+        <select name="tour" id="tour">
+            <option value="Wrocław">Wrocław</option>
+            <option value="Radom">Radom</option>
+            <option value="Watykan">Watykan</option>
+        </select><br>
+        <label for="date">Arrival date* :</label><br>
+        <input type="text" id="date" placeholder="d/m/y"><br>
+        <label for="people">Number of persons* :</label><br>
+        <input type="text" id="people"><br>
+        What would you want to avail?*<br>
+        <label for="board">Boarding</label>
+        <input type="checkbox" id="board" name="board" value="Boarding"><br>
+        <label for="food">Fooding</label>
+        <input type="checkbox" id="food" name="food" value="Fooding"><br>
+        <label for="sight">Sightseeing</label>
+        <input type="checkbox" id="sighr" name="sight" value="Sightseeing"><br>
+        <label for="code">Discount Coupon code:</label><br>
+        <input type="text" id="code"><br>
+        <label for="terms">Terms and Conditions*</label><br>
+        <input type="radio" id="terms" value="agree">
+        <label for="terms">I agree</label>
+        <input type="radio" id="dis" value="disagree">
+        <label for="dis">I disagree</label><br>
+        <input type="submit" value="Complete reservation">
+    </form>
+</body>
+</html>
