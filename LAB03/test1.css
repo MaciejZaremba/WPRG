@@ -1,0 +1,15 @@
+h3{
+    color: red;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+strong{
+    color:darkviolet;
+    font-size: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span, p{
+    font-size: 0.75vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: royalblue;
+}

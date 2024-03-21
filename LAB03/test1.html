@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="utf-8">
+    <title>formularz2</title>
+    <link href="test1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <label for="title"><strong>Title <span style="color: red;">*</span></strong></label><br>
+    <input type="text" size="50" id="title"><br><br>
+    <label for="date"><strong>Date</strong></label><br>
+    <input type="date" id="date" placeholder="yyyy-mm-dd"><br>
+    <span>Date-only description</span><br><br>
+    <fieldset>
+        <label for="dateAgain"><h3>DATE/TIME</h3></label>
+        <input type="date" id="dateAgain" placeholder="yyyy-mm-dd">
+        <input type="time" id="time"><br><br>
+        <span>Date and type description</span><br><br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <h3>DATE RANGE</h3>
+        <fieldset>
+            <label for="startDate"><h3>START DATE</h3></label>
+            <input type="date" id="startDate" placeholder="yyyy-mm-dd">
+            <input type="time" id="time"><br><br>
+        </fieldset>
+        <fieldset>
+            <label for="endDate"><h3>END DATE</h3></label>
+            <input type="date" id="endDate" placeholder="yyyy-mm-dd">
+            <input type="time" id="time"><br><br>
+        </fieldset>
+        <p>Date range description</p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <label for="year"><h3>DATE/TIME LIST</h3></label>
+        <select name="YEAR" id="year">
+            <option value="year">YEAR</option>
+        </select>
+        <select name="MONTH" id="month">
+            <option value="month">MONTH</option>
+        </select>
+        <select name="DAY" id="day">
+            <option value="day">DAY</option>
+        </select>
+        <select name="HOUR" id="hour">
+            <option value="hour">HOUR</option>
+        </select>
+        <select name="MINUTE" id="minute">
+            <option value="minute">MINUTE</option>
+        </select>
+        <p>Date / time list description</p>
+    </fieldset>
+</body>
+</html>
