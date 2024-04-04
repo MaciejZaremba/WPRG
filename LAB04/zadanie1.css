@@ -1,0 +1,29 @@
+.outer{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    background-color: rgb(184, 182, 182);
+    width: 500px;
+}
+.inner{
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+    padding: 10px;
+    background-color: rgb(184, 182, 182);
+}
+.border{
+    padding: 5px;
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.center{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    background-color: rgb(184, 182, 182);
+}

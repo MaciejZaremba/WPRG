@@ -1,0 +1,13 @@
+p{
+    box-shadow: 5px 5px 10px grey; 
+    width: 200px; 
+    height: 100px; 
+    overflow: scroll; 
+    border: 5px; 
+    border-style: dashed; 
+    border-radius: 50%; 
+    border-color: blueviolet;
+    text-align: center;
+    padding: 5px 10px;
+    display: block;
+}

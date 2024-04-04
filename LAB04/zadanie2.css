@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    color: darkgreen;
+    letter-spacing: 10px;
+}
+div{
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    width: 25%;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px grey;
+    padding-bottom: 10px;
+}
+h2{
+    text-align: left;
+    letter-spacing: 5px;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+}
+span{
+    padding: 0px 10px 0px 10px;
+}
+#address1, #address2{
+    float: right;
+}
+#address1, #email{
+    color: darkgreen;
+}
+#email{
+    font-weight: 200;
+    word-wrap: break-word;
+}
