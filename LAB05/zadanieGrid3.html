@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="utf-8">
+    <title>ouch</title>
+    <link href="zadanieGrid3.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Strona główna</li>
+            <li>O nas</li>
+            <li>Kontakt</li>
+        </ul>
+    </header>
+    <div class="main">
+        <div>
+            <h2>Witaj na naszej jeszcze bardziej skomplikowanej stronie!</h2>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <th>Nazwa</th>
+                    <th>Cena</th>
+                    <th>Ilość</th>
+                </thead>
+                <tr>
+                    <td>Produkt 1</td>
+                    <td>100 zł</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Produkt 2</td>
+                    <td>200 zł</td>
+                    <td>5</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <form>
+                <legend>Formularz kontaktowy</legend>
+                <label for="name">Imię i nazwisko:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Adres e-mail:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="desc">Wiadomość:</label><br>
+                <textarea id="desc" name="desc"></textarea><br>
+                <input type="submit" id="submit" name="submit" value="Wyślij">
+            </form>
+        </div>
+    </div>
+    <footer>
+        &copy; Skomplikowana strona z flexboxem, tabelami i formularzami. Wszelkie prawa zastrzeżone.
+    </footer>
+</body>
+</html>

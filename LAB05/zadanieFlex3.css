@@ -1,0 +1,78 @@
+html, body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+ul{
+    display: flex;
+    opacity: 0.6;
+    color: white;
+    background-color: black;
+    list-style: none;
+    padding: 0.7em;
+    margin: 0px;
+}
+li{
+    flex-direction: row;
+    margin-right: auto;
+}
+li:first-child{
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    height: 300px;
+    gap: 4em;
+    color: black;
+    background-image: url(fog.jpeg);
+}
+.centerHeader{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    height: 10%;
+}
+.lowerHeader{
+    text-align: center;
+}
+.flexBoxes{
+    display: grid;
+    justify-content: center;
+    margin: 15px;
+    gap: 15px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: auto auto auto auto;
+}
+.flex{
+    width: 300px;
+}
+.flexWide{
+    width: 460px;
+}
+.flexWide:nth-of-type(odd){
+    margin-left: 155px
+}
+.flex, .flexWide{
+    height: 350px;
+    box-shadow: 0 5px 5px -1px darkgray;
+}
+.flexDate{
+    height: 50%;
+    text-align: end;
+    padding-right: 5px;
+    font-size: 0.6em;
+    line-height: 33em;
+    background-color: #7b882f;
+    color: white;
+}
+.title{
+    padding: 0px 5px 0px 5px;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+.description{
+    padding: 0px 5px 0px 5px;
+    font-size: 0.7em;
+}

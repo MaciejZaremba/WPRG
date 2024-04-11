@@ -1,0 +1,21 @@
+html, body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+}
+.container > div{
+    width: 150px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    border: 2px solid black;
+    text-shadow: 2px 2px black;
+    background-color: palegoldenrod;
+    color: white;
+}
+.container > div:nth-child(2n){
+    background-color: bisque;
+}
