@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body
+{
+    background-color: green;
+    color: white;
+}
+header, footer
+{
+    background-color: skyblue;
+    color: black;
+    text-align: center;
+}
+header
+{
+    font-size: xxx-large;
+    padding: 15px 0 15px 0;
+    padding: 15px 0 15px 0;
+}
+footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+form
+{
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    grid-template-rows: 20%;
+    margin: 0 35% 0;
+    align-items: center;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    grid-gap: 1%;
+    padding: 2%;
+}
+p
+{
+    grid-column: span 3;
+}
+label
+{
+    text-align: right;
+}
+input[type="text"], input[type="password"]
+{
+    grid-column: span 2;
+}
+input[type="submit"]
+{
+    background-color: black;
+    color: orange;
+    border-radius: 10px;
+    border: 0;
+    font-size: large;
+}
+input[type="submit"]:nth-last-of-type(2)
+{
+    background-color: orange;
+    color: black;
+}
+.main
+{
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.filler
+{
+    background-color: green;
+    padding: 7%;
+}
